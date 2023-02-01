@@ -61,6 +61,9 @@ function displayData(response) {
         search.value = "";
     }
     else{
+        const error = document.querySelector(".error");
+        error.textContent = "";
+        search.value = "";
         const city = document.querySelector(".city");
         const weather = document.querySelector(".weather");
         const temp = document.querySelector(".temp");
